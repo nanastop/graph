@@ -1,0 +1,2 @@
+TBB_DIR = $(HOME)/tbb/tbb_latest/
+LIBRARY_VER = $(shell cat $(HOME)/tbb/TBB_LATEST_LIBRARY_VER.txt)

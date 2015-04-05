@@ -1,0 +1,22 @@
+c FILE			: sample.gr
+c No. of vertices	: 9
+c No. of directed edges	: 
+c Max. weight		: 100
+c Min. weight		: 1
+c A directed arc from u to v of weight w
+c is represented below as ' a  u  v  w '
+p sp 9 14
+a 1 2 4
+a 1 8 8
+a 2 8 11
+a 2 3 8
+a 3 4 7
+a 3 6 4
+a 3 9 2
+a 4 5 9
+a 4 6 14
+a 5 6 10
+a 6 7 2
+a 7 8 1
+a 7 9 6
+a 8 9 7

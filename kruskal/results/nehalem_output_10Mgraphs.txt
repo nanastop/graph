@@ -1,0 +1,863 @@
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:51703642312.000000  freq:2800233000 seconds:18.464050   msf_weight:64464380 msf_edges:9999999
+nthreads:2  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:27022989792.000000  freq:2800233000 seconds:9.650265   msf_weight:64464380 msf_edges:9999999
+nthreads:3  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:19491588405.000000  freq:2800233000 seconds:6.960702   msf_weight:64464380 msf_edges:9999999
+nthreads:4  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:15982269935.000000  freq:2800233000 seconds:5.707479   msf_weight:64464380 msf_edges:9999999
+nthreads:5  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:14128061527.000000  freq:2800233000 seconds:5.045316   msf_weight:64464380 msf_edges:9999999
+nthreads:6  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13204800018.000000  freq:2800233000 seconds:4.715608   msf_weight:64464380 msf_edges:9999999
+nthreads:7  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:12845268589.000000  freq:2800233000 seconds:4.587214   msf_weight:64464380 msf_edges:9999999
+nthreads:8  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:12586067701.000000  freq:2800233000 seconds:4.494650   msf_weight:64464380 msf_edges:9999999
+nthreads:9  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13438159360.000000  freq:2800233000 seconds:4.798943   msf_weight:64464380 msf_edges:9999999
+nthreads:10  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13782147044.000000  freq:2800233000 seconds:4.921786   msf_weight:64464380 msf_edges:9999999
+nthreads:11  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13488551035.000000  freq:2800233000 seconds:4.816939   msf_weight:64464380 msf_edges:9999999
+nthreads:12  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13252775377.000000  freq:2800233000 seconds:4.732740   msf_weight:64464380 msf_edges:9999999
+nthreads:13  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13770034116.000000  freq:2800233000 seconds:4.917460   msf_weight:64464380 msf_edges:9999999
+nthreads:14  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13617352780.000000  freq:2800233000 seconds:4.862936   msf_weight:64464380 msf_edges:9999999
+nthreads:15  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13587423045.000000  freq:2800233000 seconds:4.852247   msf_weight:64464380 msf_edges:9999999
+nthreads:16  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:cpt  cycles:13549152263.000000  freq:2800233000 seconds:4.838580   msf_weight:64464380 msf_edges:9999999
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:51668611472.000000  freq:2800233000 seconds:18.451540   msf_weight:64464380 msf_edges:9999999
+nthreads:2  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:26564987640.000000  freq:2800233000 seconds:9.486706   msf_weight:64464380 msf_edges:9999999
+nthreads:3  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:19264369832.000000  freq:2800233000 seconds:6.879560   msf_weight:64464380 msf_edges:9999999
+nthreads:4  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:15638638920.000000  freq:2800233000 seconds:5.584763   msf_weight:64464380 msf_edges:9999999
+nthreads:5  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:14143531284.000000  freq:2800233000 seconds:5.050841   msf_weight:64464380 msf_edges:9999999
+nthreads:6  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:13108583889.000000  freq:2800233000 seconds:4.681248   msf_weight:64464380 msf_edges:9999999
+nthreads:7  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:12780592120.000000  freq:2800233000 seconds:4.564117   msf_weight:64464380 msf_edges:9999999
+nthreads:8  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:12914548269.000000  freq:2800233000 seconds:4.611955   msf_weight:64464380 msf_edges:9999999
+nthreads:9  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:13645433216.000000  freq:2800233000 seconds:4.872964   msf_weight:64464380 msf_edges:9999999
+nthreads:10  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:14686868324.000000  freq:2800233000 seconds:5.244874   msf_weight:64464380 msf_edges:9999999
+nthreads:11  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:14248397622.000000  freq:2800233000 seconds:5.088290   msf_weight:64464380 msf_edges:9999999
+nthreads:12  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:14227655276.000000  freq:2800233000 seconds:5.080883   msf_weight:64464380 msf_edges:9999999
+nthreads:13  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:14020735976.000000  freq:2800233000 seconds:5.006989   msf_weight:64464380 msf_edges:9999999
+nthreads:14  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:13945009252.000000  freq:2800233000 seconds:4.979946   msf_weight:64464380 msf_edges:9999999
+nthreads:15  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:13557310536.000000  freq:2800233000 seconds:4.841494   msf_weight:64464380 msf_edges:9999999
+nthreads:16  graph:/local/graphs/10M/rand10Mx100M.gr  mapping:pct  cycles:13533975301.000000  freq:2800233000 seconds:4.833160   msf_weight:64464380 msf_edges:9999999
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6521032492.000000  freq:2800233000 seconds:2.328746   msf_weight:367897920 msf_edges:8382278
+nthreads:2  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6326142120.000000  freq:2800233000 seconds:2.259148   msf_weight:367897920 msf_edges:8382278
+nthreads:3  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6248558210.000000  freq:2800233000 seconds:2.231442   msf_weight:367897920 msf_edges:8382278
+nthreads:4  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6470109341.000000  freq:2800233000 seconds:2.310561   msf_weight:367897920 msf_edges:8382278
+nthreads:5  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6419857615.000000  freq:2800233000 seconds:2.292616   msf_weight:367897920 msf_edges:8382278
+nthreads:6  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6650357760.000000  freq:2800233000 seconds:2.374930   msf_weight:367897920 msf_edges:8382278
+nthreads:7  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6548452471.000000  freq:2800233000 seconds:2.338538   msf_weight:367897920 msf_edges:8382278
+nthreads:8  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:6600499912.000000  freq:2800233000 seconds:2.357125   msf_weight:367897920 msf_edges:8382278
+nthreads:9  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7398383422.000000  freq:2800233000 seconds:2.642060   msf_weight:367897920 msf_edges:8382278
+nthreads:10  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7541339384.000000  freq:2800233000 seconds:2.693111   msf_weight:367897920 msf_edges:8382278
+nthreads:11  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7663243804.000000  freq:2800233000 seconds:2.736645   msf_weight:367897920 msf_edges:8382278
+nthreads:12  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7845953380.000000  freq:2800233000 seconds:2.801893   msf_weight:367897920 msf_edges:8382278
+nthreads:13  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7777724419.000000  freq:2800233000 seconds:2.777528   msf_weight:367897920 msf_edges:8382278
+nthreads:14  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7743104866.000000  freq:2800233000 seconds:2.765164   msf_weight:367897920 msf_edges:8382278
+nthreads:15  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7732865911.000000  freq:2800233000 seconds:2.761508   msf_weight:367897920 msf_edges:8382278
+nthreads:16  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:cpt  cycles:7592995493.000000  freq:2800233000 seconds:2.711558   msf_weight:367897920 msf_edges:8382278
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6513667328.000000  freq:2800233000 seconds:2.326116   msf_weight:367897920 msf_edges:8382278
+nthreads:2  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6381997731.000000  freq:2800233000 seconds:2.279095   msf_weight:367897920 msf_edges:8382278
+nthreads:3  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6169649672.000000  freq:2800233000 seconds:2.203263   msf_weight:367897920 msf_edges:8382278
+nthreads:4  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6323261412.000000  freq:2800233000 seconds:2.258120   msf_weight:367897920 msf_edges:8382278
+nthreads:5  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6455749744.000000  freq:2800233000 seconds:2.305433   msf_weight:367897920 msf_edges:8382278
+nthreads:6  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6562503977.000000  freq:2800233000 seconds:2.343556   msf_weight:367897920 msf_edges:8382278
+nthreads:7  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6663568260.000000  freq:2800233000 seconds:2.379648   msf_weight:367897920 msf_edges:8382278
+nthreads:8  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:6765198291.000000  freq:2800233000 seconds:2.415941   msf_weight:367897920 msf_edges:8382278
+nthreads:9  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7627336908.000000  freq:2800233000 seconds:2.723822   msf_weight:367897920 msf_edges:8382278
+nthreads:10  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7539943206.000000  freq:2800233000 seconds:2.692613   msf_weight:367897920 msf_edges:8382278
+nthreads:11  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7693652468.000000  freq:2800233000 seconds:2.747504   msf_weight:367897920 msf_edges:8382278
+nthreads:12  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7616211516.000000  freq:2800233000 seconds:2.719849   msf_weight:367897920 msf_edges:8382278
+nthreads:13  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7717057629.000000  freq:2800233000 seconds:2.755863   msf_weight:367897920 msf_edges:8382278
+nthreads:14  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7644772885.000000  freq:2800233000 seconds:2.730049   msf_weight:367897920 msf_edges:8382278
+nthreads:15  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7762660066.000000  freq:2800233000 seconds:2.772148   msf_weight:367897920 msf_edges:8382278
+nthreads:16  graph:/local/graphs/10M/rand10Mx10M.gr  mapping:pct  cycles:7637940469.000000  freq:2800233000 seconds:2.727609   msf_weight:367897920 msf_edges:8382278
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:27296411904.000000  freq:2800233000 seconds:9.747907   msf_weight:123316432 msf_edges:9999504
+nthreads:2  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:14991332210.000000  freq:2800233000 seconds:5.353602   msf_weight:123316432 msf_edges:9999504
+nthreads:3  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11784258193.000000  freq:2800233000 seconds:4.208313   msf_weight:123316432 msf_edges:9999504
+nthreads:4  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:10683402164.000000  freq:2800233000 seconds:3.815183   msf_weight:123316432 msf_edges:9999504
+nthreads:5  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:10368695548.000000  freq:2800233000 seconds:3.702797   msf_weight:123316432 msf_edges:9999504
+nthreads:6  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:10196409135.000000  freq:2800233000 seconds:3.641272   msf_weight:123316432 msf_edges:9999504
+nthreads:7  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:10167920848.000000  freq:2800233000 seconds:3.631098   msf_weight:123316432 msf_edges:9999504
+nthreads:8  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:10126398660.000000  freq:2800233000 seconds:3.616270   msf_weight:123316432 msf_edges:9999504
+nthreads:9  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11460932656.000000  freq:2800233000 seconds:4.092850   msf_weight:123316432 msf_edges:9999504
+nthreads:10  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11889716468.000000  freq:2800233000 seconds:4.245974   msf_weight:123316432 msf_edges:9999504
+nthreads:11  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11877377579.000000  freq:2800233000 seconds:4.241568   msf_weight:123316432 msf_edges:9999504
+nthreads:12  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11797261660.000000  freq:2800233000 seconds:4.212957   msf_weight:123316432 msf_edges:9999504
+nthreads:13  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11812729276.000000  freq:2800233000 seconds:4.218481   msf_weight:123316432 msf_edges:9999504
+nthreads:14  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11745239027.000000  freq:2800233000 seconds:4.194379   msf_weight:123316432 msf_edges:9999504
+nthreads:15  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11683638883.000000  freq:2800233000 seconds:4.172381   msf_weight:123316432 msf_edges:9999504
+nthreads:16  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:cpt  cycles:11649890733.000000  freq:2800233000 seconds:4.160329   msf_weight:123316432 msf_edges:9999504
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:27336526284.000000  freq:2800233000 seconds:9.762233   msf_weight:123316432 msf_edges:9999504
+nthreads:2  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:14893454120.000000  freq:2800233000 seconds:5.318648   msf_weight:123316432 msf_edges:9999504
+nthreads:3  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11943895636.000000  freq:2800233000 seconds:4.265322   msf_weight:123316432 msf_edges:9999504
+nthreads:4  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:10851511495.000000  freq:2800233000 seconds:3.875217   msf_weight:123316432 msf_edges:9999504
+nthreads:5  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:10409729918.000000  freq:2800233000 seconds:3.717451   msf_weight:123316432 msf_edges:9999504
+nthreads:6  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:10049678323.000000  freq:2800233000 seconds:3.588872   msf_weight:123316432 msf_edges:9999504
+nthreads:7  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:10275258272.000000  freq:2800233000 seconds:3.669430   msf_weight:123316432 msf_edges:9999504
+nthreads:8  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:10104045392.000000  freq:2800233000 seconds:3.608287   msf_weight:123316432 msf_edges:9999504
+nthreads:9  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11908090472.000000  freq:2800233000 seconds:4.252536   msf_weight:123316432 msf_edges:9999504
+nthreads:10  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11880679657.000000  freq:2800233000 seconds:4.242747   msf_weight:123316432 msf_edges:9999504
+nthreads:11  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11732327064.000000  freq:2800233000 seconds:4.189768   msf_weight:123316432 msf_edges:9999504
+nthreads:12  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11951142006.000000  freq:2800233000 seconds:4.267910   msf_weight:123316432 msf_edges:9999504
+nthreads:13  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11910771400.000000  freq:2800233000 seconds:4.253493   msf_weight:123316432 msf_edges:9999504
+nthreads:14  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11853319248.000000  freq:2800233000 seconds:4.232976   msf_weight:123316432 msf_edges:9999504
+nthreads:15  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11725835149.000000  freq:2800233000 seconds:4.187450   msf_weight:123316432 msf_edges:9999504
+nthreads:16  graph:/local/graphs/10M/rand10Mx50M.gr  mapping:pct  cycles:11715713467.000000  freq:2800233000 seconds:4.183835   msf_weight:123316432 msf_edges:9999504
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:49005915004.000000  freq:2800233000 seconds:17.500656   msf_weight:79304544 msf_edges:8359329
+nthreads:2  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:24785357957.000000  freq:2800233000 seconds:8.851177   msf_weight:79304544 msf_edges:8359329
+nthreads:3  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:18185909566.000000  freq:2800233000 seconds:6.494427   msf_weight:79304544 msf_edges:8359329
+nthreads:4  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:14805152514.000000  freq:2800233000 seconds:5.287115   msf_weight:79304544 msf_edges:8359329
+nthreads:5  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:12943042040.000000  freq:2800233000 seconds:4.622130   msf_weight:79304544 msf_edges:8359329
+nthreads:6  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:11728933855.000000  freq:2800233000 seconds:4.188556   msf_weight:79304544 msf_edges:8359329
+nthreads:7  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:11057439476.000000  freq:2800233000 seconds:3.948757   msf_weight:79304544 msf_edges:8359329
+nthreads:8  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10322815582.000000  freq:2800233000 seconds:3.686413   msf_weight:79304544 msf_edges:8359329
+nthreads:9  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:11432918209.000000  freq:2800233000 seconds:4.082845   msf_weight:79304544 msf_edges:8359329
+nthreads:10  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:11391152732.000000  freq:2800233000 seconds:4.067930   msf_weight:79304544 msf_edges:8359329
+nthreads:11  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:11135940997.000000  freq:2800233000 seconds:3.976791   msf_weight:79304544 msf_edges:8359329
+nthreads:12  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10873179948.000000  freq:2800233000 seconds:3.882955   msf_weight:79304544 msf_edges:8359329
+nthreads:13  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10743508916.000000  freq:2800233000 seconds:3.836648   msf_weight:79304544 msf_edges:8359329
+nthreads:14  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10534778380.000000  freq:2800233000 seconds:3.762108   msf_weight:79304544 msf_edges:8359329
+nthreads:15  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10298733037.000000  freq:2800233000 seconds:3.677813   msf_weight:79304544 msf_edges:8359329
+nthreads:16  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:cpt  cycles:10215014509.000000  freq:2800233000 seconds:3.647916   msf_weight:79304544 msf_edges:8359329
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+    Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+    Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+    Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+    Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+    Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+    Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+    Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+    Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+    Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+    Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+    Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+    Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+    Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+    Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+    Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+    Read graph
+
+    nthreads:1  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:46262770572.000000  freq:2800233000 seconds:16.521043   msf_weight:79304544 msf_edges:8359329
+    nthreads:2  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:23665688252.000000  freq:2800233000 seconds:8.451328   msf_weight:79304544 msf_edges:8359329
+    nthreads:3  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:17639082856.000000  freq:2800233000 seconds:6.299148   msf_weight:79304544 msf_edges:8359329
+    nthreads:4  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:14293063942.000000  freq:2800233000 seconds:5.104241   msf_weight:79304544 msf_edges:8359329
+    nthreads:5  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:12846666792.000000  freq:2800233000 seconds:4.587714   msf_weight:79304544 msf_edges:8359329
+    nthreads:6  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11577168057.000000  freq:2800233000 seconds:4.134359   msf_weight:79304544 msf_edges:8359329
+    nthreads:7  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11140247296.000000  freq:2800233000 seconds:3.978329   msf_weight:79304544 msf_edges:8359329
+    nthreads:8  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:10659193951.000000  freq:2800233000 seconds:3.806538   msf_weight:79304544 msf_edges:8359329
+    nthreads:9  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11405617285.000000  freq:2800233000 seconds:4.073096   msf_weight:79304544 msf_edges:8359329
+    nthreads:10  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11877886209.000000  freq:2800233000 seconds:4.241749   msf_weight:79304544 msf_edges:8359329
+    nthreads:11  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11529876308.000000  freq:2800233000 seconds:4.117470   msf_weight:79304544 msf_edges:8359329
+    nthreads:12  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11447970016.000000  freq:2800233000 seconds:4.088221   msf_weight:79304544 msf_edges:8359329
+    nthreads:13  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11245619684.000000  freq:2800233000 seconds:4.015959   msf_weight:79304544 msf_edges:8359329
+    nthreads:14  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:11016145060.000000  freq:2800233000 seconds:3.934010   msf_weight:79304544 msf_edges:8359329
+    nthreads:15  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:10738740532.000000  freq:2800233000 seconds:3.834945   msf_weight:79304544 msf_edges:8359329
+    nthreads:16  graph:/local/graphs/10M/rmat10Mx100M.gr  mapping:pct  cycles:10669620248.000000  freq:2800233000 seconds:3.810262   msf_weight:79304544 msf_edges:8359329
+
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5614284816.000000  freq:2800233000 seconds:2.004935   msf_weight:226214560 msf_edges:6042300
+nthreads:2  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4595055936.000000  freq:2800233000 seconds:1.640955   msf_weight:226214560 msf_edges:6042300
+nthreads:3  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4471419302.000000  freq:2800233000 seconds:1.596803   msf_weight:226214560 msf_edges:6042300
+nthreads:4  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4418557584.000000  freq:2800233000 seconds:1.577925   msf_weight:226214560 msf_edges:6042300
+nthreads:5  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4448006997.000000  freq:2800233000 seconds:1.588442   msf_weight:226214560 msf_edges:6042300
+nthreads:6  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4525326601.000000  freq:2800233000 seconds:1.616054   msf_weight:226214560 msf_edges:6042300
+nthreads:7  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4565471416.000000  freq:2800233000 seconds:1.630390   msf_weight:226214560 msf_edges:6042300
+nthreads:8  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:4546565859.000000  freq:2800233000 seconds:1.623638   msf_weight:226214560 msf_edges:6042300
+nthreads:9  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5210797472.000000  freq:2800233000 seconds:1.860844   msf_weight:226214560 msf_edges:6042300
+nthreads:10  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5313559616.000000  freq:2800233000 seconds:1.897542   msf_weight:226214560 msf_edges:6042300
+nthreads:11  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5403275357.000000  freq:2800233000 seconds:1.929581   msf_weight:226214560 msf_edges:6042300
+nthreads:12  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5503647205.000000  freq:2800233000 seconds:1.965425   msf_weight:226214560 msf_edges:6042300
+nthreads:13  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5471202706.000000  freq:2800233000 seconds:1.953838   msf_weight:226214560 msf_edges:6042300
+nthreads:14  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5441588376.000000  freq:2800233000 seconds:1.943263   msf_weight:226214560 msf_edges:6042300
+nthreads:15  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5443656874.000000  freq:2800233000 seconds:1.944001   msf_weight:226214560 msf_edges:6042300
+nthreads:16  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:cpt  cycles:5398215809.000000  freq:2800233000 seconds:1.927774   msf_weight:226214560 msf_edges:6042300
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5643886156.000000  freq:2800233000 seconds:2.015506   msf_weight:226214560 msf_edges:6042300
+nthreads:2  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4511019605.000000  freq:2800233000 seconds:1.610944   msf_weight:226214560 msf_edges:6042300
+nthreads:3  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4351659521.000000  freq:2800233000 seconds:1.554035   msf_weight:226214560 msf_edges:6042300
+nthreads:4  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4350924351.000000  freq:2800233000 seconds:1.553772   msf_weight:226214560 msf_edges:6042300
+nthreads:5  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4470708932.000000  freq:2800233000 seconds:1.596549   msf_weight:226214560 msf_edges:6042300
+nthreads:6  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4470470404.000000  freq:2800233000 seconds:1.596464   msf_weight:226214560 msf_edges:6042300
+nthreads:7  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4614800147.000000  freq:2800233000 seconds:1.648006   msf_weight:226214560 msf_edges:6042300
+nthreads:8  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:4628725436.000000  freq:2800233000 seconds:1.652979   msf_weight:226214560 msf_edges:6042300
+nthreads:9  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5374621000.000000  freq:2800233000 seconds:1.919348   msf_weight:226214560 msf_edges:6042300
+nthreads:10  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5326601160.000000  freq:2800233000 seconds:1.902199   msf_weight:226214560 msf_edges:6042300
+nthreads:11  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5426497288.000000  freq:2800233000 seconds:1.937873   msf_weight:226214560 msf_edges:6042300
+nthreads:12  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5408226295.000000  freq:2800233000 seconds:1.931349   msf_weight:226214560 msf_edges:6042300
+nthreads:13  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5443119004.000000  freq:2800233000 seconds:1.943809   msf_weight:226214560 msf_edges:6042300
+nthreads:14  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5412875491.000000  freq:2800233000 seconds:1.933009   msf_weight:226214560 msf_edges:6042300
+nthreads:15  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5473653290.000000  freq:2800233000 seconds:1.954714   msf_weight:226214560 msf_edges:6042300
+nthreads:16  graph:/local/graphs/10M/rmat10Mx10M.gr  mapping:pct  cycles:5415944858.000000  freq:2800233000 seconds:1.934105   msf_weight:226214560 msf_edges:6042300
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:24434482344.000000  freq:2800233000 seconds:8.725875   msf_weight:133908240 msf_edges:8205708
+nthreads:2  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:13679322550.000000  freq:2800233000 seconds:4.885066   msf_weight:133908240 msf_edges:8205708
+nthreads:3  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:10682416376.000000  freq:2800233000 seconds:3.814831   msf_weight:133908240 msf_edges:8205708
+nthreads:4  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9288648829.000000  freq:2800233000 seconds:3.317099   msf_weight:133908240 msf_edges:8205708
+nthreads:5  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:8725934848.000000  freq:2800233000 seconds:3.116146   msf_weight:133908240 msf_edges:8205708
+nthreads:6  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:8341235445.000000  freq:2800233000 seconds:2.978765   msf_weight:133908240 msf_edges:8205708
+nthreads:7  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:8130472480.000000  freq:2800233000 seconds:2.903499   msf_weight:133908240 msf_edges:8205708
+nthreads:8  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:7886815929.000000  freq:2800233000 seconds:2.816486   msf_weight:133908240 msf_edges:8205708
+nthreads:9  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9149447844.000000  freq:2800233000 seconds:3.267388   msf_weight:133908240 msf_edges:8205708
+nthreads:10  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9240822156.000000  freq:2800233000 seconds:3.300019   msf_weight:133908240 msf_edges:8205708
+nthreads:11  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9194454651.000000  freq:2800233000 seconds:3.283461   msf_weight:133908240 msf_edges:8205708
+nthreads:12  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9245380384.000000  freq:2800233000 seconds:3.301647   msf_weight:133908240 msf_edges:8205708
+nthreads:13  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9185348159.000000  freq:2800233000 seconds:3.280209   msf_weight:133908240 msf_edges:8205708
+nthreads:14  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9131959009.000000  freq:2800233000 seconds:3.261143   msf_weight:133908240 msf_edges:8205708
+nthreads:15  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:9007406692.000000  freq:2800233000 seconds:3.216663   msf_weight:133908240 msf_edges:8205708
+nthreads:16  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:cpt  cycles:8985094888.000000  freq:2800233000 seconds:3.208695   msf_weight:133908240 msf_edges:8205708
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:24472496048.000000  freq:2800233000 seconds:8.739450   msf_weight:133908240 msf_edges:8205708
+nthreads:2  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:13471162024.000000  freq:2800233000 seconds:4.810729   msf_weight:133908240 msf_edges:8205708
+nthreads:3  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:10640305708.000000  freq:2800233000 seconds:3.799793   msf_weight:133908240 msf_edges:8205708
+nthreads:4  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9257470517.000000  freq:2800233000 seconds:3.305964   msf_weight:133908240 msf_edges:8205708
+nthreads:5  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:8708227733.000000  freq:2800233000 seconds:3.109823   msf_weight:133908240 msf_edges:8205708
+nthreads:6  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:8290765424.000000  freq:2800233000 seconds:2.960741   msf_weight:133908240 msf_edges:8205708
+nthreads:7  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:8279114647.000000  freq:2800233000 seconds:2.956581   msf_weight:133908240 msf_edges:8205708
+nthreads:8  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:8146970340.000000  freq:2800233000 seconds:2.909390   msf_weight:133908240 msf_edges:8205708
+nthreads:9  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9176092728.000000  freq:2800233000 seconds:3.276903   msf_weight:133908240 msf_edges:8205708
+nthreads:10  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9530552373.000000  freq:2800233000 seconds:3.403485   msf_weight:133908240 msf_edges:8205708
+nthreads:11  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9414681896.000000  freq:2800233000 seconds:3.362107   msf_weight:133908240 msf_edges:8205708
+nthreads:12  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9442861042.000000  freq:2800233000 seconds:3.372170   msf_weight:133908240 msf_edges:8205708
+nthreads:13  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9361509064.000000  freq:2800233000 seconds:3.343118   msf_weight:133908240 msf_edges:8205708
+nthreads:14  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9298137219.000000  freq:2800233000 seconds:3.320487   msf_weight:133908240 msf_edges:8205708
+nthreads:15  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9181520908.000000  freq:2800233000 seconds:3.278842   msf_weight:133908240 msf_edges:8205708
+nthreads:16  graph:/local/graphs/10M/rmat10Mx50M.gr  mapping:pct  cycles:9194867908.000000  freq:2800233000 seconds:3.283608   msf_weight:133908240 msf_edges:8205708
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:57681845196.000000  freq:2800233000 seconds:20.598945   msf_weight:112175904 msf_edges:9995381
+nthreads:2  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:31963930008.000000  freq:2800233000 seconds:11.414739   msf_weight:112175904 msf_edges:9995381
+nthreads:3  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:23141270742.000000  freq:2800233000 seconds:8.264052   msf_weight:112175904 msf_edges:9995381
+nthreads:4  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21604096428.000000  freq:2800233000 seconds:7.715107   msf_weight:112175904 msf_edges:9995381
+nthreads:5  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:19515807785.000000  freq:2800233000 seconds:6.969351   msf_weight:112175904 msf_edges:9995381
+nthreads:6  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:18192251496.000000  freq:2800233000 seconds:6.496692   msf_weight:112175904 msf_edges:9995381
+nthreads:7  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:18572031154.000000  freq:2800233000 seconds:6.632316   msf_weight:112175904 msf_edges:9995381
+nthreads:8  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:18315950472.000000  freq:2800233000 seconds:6.540867   msf_weight:112175904 msf_edges:9995381
+nthreads:9  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:20775195548.000000  freq:2800233000 seconds:7.419095   msf_weight:112175904 msf_edges:9995381
+nthreads:10  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:22341151026.000000  freq:2800233000 seconds:7.978319   msf_weight:112175904 msf_edges:9995381
+nthreads:11  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21968048372.000000  freq:2800233000 seconds:7.845079   msf_weight:112175904 msf_edges:9995381
+nthreads:12  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:22036784128.000000  freq:2800233000 seconds:7.869625   msf_weight:112175904 msf_edges:9995381
+nthreads:13  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21924560930.000000  freq:2800233000 seconds:7.829549   msf_weight:112175904 msf_edges:9995381
+nthreads:14  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21698338745.000000  freq:2800233000 seconds:7.748762   msf_weight:112175904 msf_edges:9995381
+nthreads:15  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21622745187.000000  freq:2800233000 seconds:7.721766   msf_weight:112175904 msf_edges:9995381
+nthreads:16  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:cpt  cycles:21483393871.000000  freq:2800233000 seconds:7.672002   msf_weight:112175904 msf_edges:9995381
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:57680849764.000000  freq:2800233000 seconds:20.598589   msf_weight:112175904 msf_edges:9995381
+nthreads:2  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:30884601416.000000  freq:2800233000 seconds:11.029297   msf_weight:112175904 msf_edges:9995381
+nthreads:3  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:22244382117.000000  freq:2800233000 seconds:7.943761   msf_weight:112175904 msf_edges:9995381
+nthreads:4  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:18656128904.000000  freq:2800233000 seconds:6.662349   msf_weight:112175904 msf_edges:9995381
+nthreads:5  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:17430750288.000000  freq:2800233000 seconds:6.224750   msf_weight:112175904 msf_edges:9995381
+nthreads:6  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:16231961170.000000  freq:2800233000 seconds:5.796647   msf_weight:112175904 msf_edges:9995381
+nthreads:7  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:18163818617.000000  freq:2800233000 seconds:6.486538   msf_weight:112175904 msf_edges:9995381
+nthreads:8  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:17723629140.000000  freq:2800233000 seconds:6.329341   msf_weight:112175904 msf_edges:9995381
+nthreads:9  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:20801518144.000000  freq:2800233000 seconds:7.428495   msf_weight:112175904 msf_edges:9995381
+nthreads:10  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21812057074.000000  freq:2800233000 seconds:7.789372   msf_weight:112175904 msf_edges:9995381
+nthreads:11  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21356671762.000000  freq:2800233000 seconds:7.626748   msf_weight:112175904 msf_edges:9995381
+nthreads:12  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21495257931.000000  freq:2800233000 seconds:7.676239   msf_weight:112175904 msf_edges:9995381
+nthreads:13  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21726563152.000000  freq:2800233000 seconds:7.758841   msf_weight:112175904 msf_edges:9995381
+nthreads:14  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21568272560.000000  freq:2800233000 seconds:7.702314   msf_weight:112175904 msf_edges:9995381
+nthreads:15  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21435738666.000000  freq:2800233000 seconds:7.654984   msf_weight:112175904 msf_edges:9995381
+nthreads:16  graph:/local/graphs/10M/ssca10Mx118M.gr  mapping:pct  cycles:21501822708.000000  freq:2800233000 seconds:7.678583   msf_weight:112175904 msf_edges:9995381
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:14287493576.000000  freq:2800233000 seconds:5.102252   msf_weight:277754752 msf_edges:9933287
+nthreads:2  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10157264744.000000  freq:2800233000 seconds:3.627293   msf_weight:277754752 msf_edges:9933287
+nthreads:3  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9643456720.000000  freq:2800233000 seconds:3.443805   msf_weight:277754752 msf_edges:9933287
+nthreads:4  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9226762077.000000  freq:2800233000 seconds:3.294998   msf_weight:277754752 msf_edges:9933287
+nthreads:5  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9067333519.000000  freq:2800233000 seconds:3.238064   msf_weight:277754752 msf_edges:9933287
+nthreads:6  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9220557690.000000  freq:2800233000 seconds:3.292782   msf_weight:277754752 msf_edges:9933287
+nthreads:7  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9128563756.000000  freq:2800233000 seconds:3.259930   msf_weight:277754752 msf_edges:9933287
+nthreads:8  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:9039067723.000000  freq:2800233000 seconds:3.227970   msf_weight:277754752 msf_edges:9933287
+nthreads:9  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10485389797.000000  freq:2800233000 seconds:3.744470   msf_weight:277754752 msf_edges:9933287
+nthreads:10  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10724693140.000000  freq:2800233000 seconds:3.829929   msf_weight:277754752 msf_edges:9933287
+nthreads:11  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10737552980.000000  freq:2800233000 seconds:3.834521   msf_weight:277754752 msf_edges:9933287
+nthreads:12  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10961861420.000000  freq:2800233000 seconds:3.914625   msf_weight:277754752 msf_edges:9933287
+nthreads:13  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10849911356.000000  freq:2800233000 seconds:3.874646   msf_weight:277754752 msf_edges:9933287
+nthreads:14  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10829026333.000000  freq:2800233000 seconds:3.867188   msf_weight:277754752 msf_edges:9933287
+nthreads:15  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10862873732.000000  freq:2800233000 seconds:3.879275   msf_weight:277754752 msf_edges:9933287
+nthreads:16  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:cpt  cycles:10731337406.000000  freq:2800233000 seconds:3.832302   msf_weight:277754752 msf_edges:9933287
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:14232539096.000000  freq:2800233000 seconds:5.082627   msf_weight:277754752 msf_edges:9933287
+nthreads:2  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10118428551.000000  freq:2800233000 seconds:3.613424   msf_weight:277754752 msf_edges:9933287
+nthreads:3  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9119432724.000000  freq:2800233000 seconds:3.256669   msf_weight:277754752 msf_edges:9933287
+nthreads:4  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9062329830.000000  freq:2800233000 seconds:3.236277   msf_weight:277754752 msf_edges:9933287
+nthreads:5  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9079812013.000000  freq:2800233000 seconds:3.242520   msf_weight:277754752 msf_edges:9933287
+nthreads:6  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9013072230.000000  freq:2800233000 seconds:3.218687   msf_weight:277754752 msf_edges:9933287
+nthreads:7  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9213951460.000000  freq:2800233000 seconds:3.290423   msf_weight:277754752 msf_edges:9933287
+nthreads:8  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:9214305854.000000  freq:2800233000 seconds:3.290550   msf_weight:277754752 msf_edges:9933287
+nthreads:9  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10731347632.000000  freq:2800233000 seconds:3.832305   msf_weight:277754752 msf_edges:9933287
+nthreads:10  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10684327798.000000  freq:2800233000 seconds:3.815514   msf_weight:277754752 msf_edges:9933287
+nthreads:11  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10885305196.000000  freq:2800233000 seconds:3.887286   msf_weight:277754752 msf_edges:9933287
+nthreads:12  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10846969426.000000  freq:2800233000 seconds:3.873595   msf_weight:277754752 msf_edges:9933287
+nthreads:13  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10885325397.000000  freq:2800233000 seconds:3.887293   msf_weight:277754752 msf_edges:9933287
+nthreads:14  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10808657704.000000  freq:2800233000 seconds:3.859914   msf_weight:277754752 msf_edges:9933287
+nthreads:15  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10873853382.000000  freq:2800233000 seconds:3.883196   msf_weight:277754752 msf_edges:9933287
+nthreads:16  graph:/local/graphs/10M/ssca10Mx32M.gr  mapping:pct  cycles:10710742760.000000  freq:2800233000 seconds:3.824947   msf_weight:277754752 msf_edges:9933287
+LLC bytes: 8388608
+Thread fill order: cores>packages>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 2 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 3 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 4 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 5 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 6 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 10 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 11 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:22324596524.000000  freq:2800233000 seconds:7.972407   msf_weight:185566592 msf_edges:9981951
+nthreads:2  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:13390200000.000000  freq:2800233000 seconds:4.781816   msf_weight:185566592 msf_edges:9981951
+nthreads:3  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11285315630.000000  freq:2800233000 seconds:4.030135   msf_weight:185566592 msf_edges:9981951
+nthreads:4  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:10561913717.000000  freq:2800233000 seconds:3.771798   msf_weight:185566592 msf_edges:9981951
+nthreads:5  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:10358278895.000000  freq:2800233000 seconds:3.699078   msf_weight:185566592 msf_edges:9981951
+nthreads:6  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:10222354062.000000  freq:2800233000 seconds:3.650537   msf_weight:185566592 msf_edges:9981951
+nthreads:7  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:10019440635.000000  freq:2800233000 seconds:3.578074   msf_weight:185566592 msf_edges:9981951
+nthreads:8  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:9722244197.000000  freq:2800233000 seconds:3.471941   msf_weight:185566592 msf_edges:9981951
+nthreads:9  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11545885106.000000  freq:2800233000 seconds:4.123187   msf_weight:185566592 msf_edges:9981951
+nthreads:10  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11744074348.000000  freq:2800233000 seconds:4.193963   msf_weight:185566592 msf_edges:9981951
+nthreads:11  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11778401869.000000  freq:2800233000 seconds:4.206222   msf_weight:185566592 msf_edges:9981951
+nthreads:12  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11806839865.000000  freq:2800233000 seconds:4.216378   msf_weight:185566592 msf_edges:9981951
+nthreads:13  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11793577596.000000  freq:2800233000 seconds:4.211642   msf_weight:185566592 msf_edges:9981951
+nthreads:14  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11777068359.000000  freq:2800233000 seconds:4.205746   msf_weight:185566592 msf_edges:9981951
+nthreads:15  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11729576680.000000  freq:2800233000 seconds:4.188786   msf_weight:185566592 msf_edges:9981951
+nthreads:16  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:cpt  cycles:11681970828.000000  freq:2800233000 seconds:4.171785   msf_weight:185566592 msf_edges:9981951
+LLC bytes: 8388608
+Thread fill order: packages>cores>threads
+Thread 0 @ package 1, core 0, hw thread 0 (cpuid: 8)
+Thread 1 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 2 @ package 1, core 1, hw thread 0 (cpuid: 10)
+Thread 3 @ package 0, core 1, hw thread 0 (cpuid: 2)
+Thread 4 @ package 1, core 2, hw thread 0 (cpuid: 12)
+Thread 5 @ package 0, core 2, hw thread 0 (cpuid: 4)
+Thread 6 @ package 1, core 3, hw thread 0 (cpuid: 14)
+Thread 7 @ package 0, core 3, hw thread 0 (cpuid: 6)
+Thread 8 @ package 1, core 0, hw thread 1 (cpuid: 9)
+Thread 9 @ package 0, core 0, hw thread 1 (cpuid: 1)
+Thread 10 @ package 1, core 1, hw thread 1 (cpuid: 11)
+Thread 11 @ package 0, core 1, hw thread 1 (cpuid: 3)
+Thread 12 @ package 1, core 2, hw thread 1 (cpuid: 13)
+Thread 13 @ package 0, core 2, hw thread 1 (cpuid: 5)
+Thread 14 @ package 1, core 3, hw thread 1 (cpuid: 15)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 7)
+
+Read graph
+
+nthreads:1  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:22311293404.000000  freq:2800233000 seconds:7.967656   msf_weight:185566592 msf_edges:9981951
+nthreads:2  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:13804944732.000000  freq:2800233000 seconds:4.929927   msf_weight:185566592 msf_edges:9981951
+nthreads:3  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11251893770.000000  freq:2800233000 seconds:4.018199   msf_weight:185566592 msf_edges:9981951
+nthreads:4  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:10473381642.000000  freq:2800233000 seconds:3.740182   msf_weight:185566592 msf_edges:9981951
+nthreads:5  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:10127364172.000000  freq:2800233000 seconds:3.616615   msf_weight:185566592 msf_edges:9981951
+nthreads:6  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:10091627106.000000  freq:2800233000 seconds:3.603853   msf_weight:185566592 msf_edges:9981951
+nthreads:7  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:10106161788.000000  freq:2800233000 seconds:3.609043   msf_weight:185566592 msf_edges:9981951
+nthreads:8  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:9943930079.000000  freq:2800233000 seconds:3.551108   msf_weight:185566592 msf_edges:9981951
+nthreads:9  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11765216768.000000  freq:2800233000 seconds:4.201514   msf_weight:185566592 msf_edges:9981951
+nthreads:10  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11787994136.000000  freq:2800233000 seconds:4.209648   msf_weight:185566592 msf_edges:9981951
+nthreads:11  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11747261748.000000  freq:2800233000 seconds:4.195102   msf_weight:185566592 msf_edges:9981951
+nthreads:12  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11869692737.000000  freq:2800233000 seconds:4.238823   msf_weight:185566592 msf_edges:9981951
+nthreads:13  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11907291578.000000  freq:2800233000 seconds:4.252250   msf_weight:185566592 msf_edges:9981951
+nthreads:14  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11851586060.000000  freq:2800233000 seconds:4.232357   msf_weight:185566592 msf_edges:9981951
+nthreads:15  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11734706516.000000  freq:2800233000 seconds:4.190618   msf_weight:185566592 msf_edges:9981951
+nthreads:16  graph:/local/graphs/10M/ssca10Mx60M.gr  mapping:pct  cycles:11720397801.000000  freq:2800233000 seconds:4.185508   msf_weight:185566592 msf_edges:9981951
