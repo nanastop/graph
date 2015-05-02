@@ -23,8 +23,8 @@ void dijkstra_alloc_arrays(adjlist_t *al,
                            unsigned int **pred, 
                            weight_t **dist)
 {
-	*pred = (unsigned int*)malloc_safe(al->nvertices * sizeof(unsigned int));
-	*dist = (weight_t*)malloc_safe(al->nvertices * sizeof(weight_t));
+    *pred = (unsigned int*)malloc_safe(al->nvertices * sizeof(unsigned int));
+    *dist = (weight_t*)malloc_safe(al->nvertices * sizeof(weight_t));
 }
 
 /**
@@ -48,16 +48,16 @@ bheap_t* dijkstra_init(adjlist_t *al,
 
     bheap_t *heap = bh_create(al->nvertices);
 
-	for ( i = 0; i < al->nvertices; i++ ) {
-		pred[i] = i;
-		dist[i] = INFINITY;
-		
+    for ( i = 0; i < al->nvertices; i++ ) {
+        pred[i] = i;
+        dist[i] = INFINITY;
+        
         new.value = i;
         new.key = INFINITY;
 
         bh_min_insert(heap, &new);
-	}
-	
+    }
+    
     bh_build_min_heap(heap);
       
     bh_decrease_key(heap, s, 0); 
@@ -80,38 +80,38 @@ void dijkstra(adjlist_t *al,
               unsigned int *pred, 
               weight_t *dist)
 {
-	unsigned int u;
+    unsigned int u;
     index_t v_hindex;
-	weight_t distv, sum;
-	node_t *v;
-	bh_node_t *min;
+    weight_t distv, sum;
+    node_t *v;
+    bh_node_t *min;
 
     assert(heap);
     assert(heap->capacity > 0);
     assert(dist);
     assert(pred);
 
-	while ( heap->curr_size > 0 ) {
+    while ( heap->curr_size > 0 ) {
 
-		min = bh_extract_min(heap);
-		u = min->value;
+        min = bh_extract_min(heap);
+        u = min->value;
 
         /*fprintf(stderr, "Extracted %u with distance %f\n", u, min->key);*/
-	
-		if( min->key < INFINITY ) {
-			for ( v = al->adj[u]; v != NULL; v = v->next ) {
-				v_hindex = heap->where_in_heap[v->id];
-				distv = heap->node_array[v_hindex].key;
+    
+        if( min->key < INFINITY ) {
+            for ( v = al->adj[u]; v != NULL; v = v->next ) {
+                v_hindex = heap->where_in_heap[v->id];
+                distv = heap->node_array[v_hindex].key;
 
-				sum = min->key + v->weight;
-				if ( distv > sum ) {
-					bh_decrease_key(heap, v->id, sum);
-					pred[v->id] = u; 
-                    dist[v->id] = sum;	
-				}
-			}
-		} 
-	}
+                sum = min->key + v->weight;
+                if ( distv > sum ) {
+                    bh_decrease_key(heap, v->id, sum);
+                    pred[v->id] = u; 
+                    dist[v->id] = sum;  
+                }
+            }
+        } 
+    }
 }
 
 /**
