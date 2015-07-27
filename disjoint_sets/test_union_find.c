@@ -14,12 +14,10 @@ int main(int argc, char **argv)
     forest_node_t *s1=make_set(&i1), *s2=make_set(&i2), *s3=make_set(&i3);
 
     assert(find_set(s1) == s1);
-
     union_sets(s1, s2);
 
     assert(find_set(s1) == find_set(s2));
     assert(find_set(s1) != find_set(s3));
-
     union_sets(s2, s3);
 
     assert(find_set(s1) == find_set(s2) &&
